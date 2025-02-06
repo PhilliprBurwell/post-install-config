@@ -5,11 +5,6 @@
 <h1>osTicket - Post-Install Configuration</h1>
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -33,9 +28,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 </p>
 <p>
-#1 Configuring Roles, Departments and Teams Configure Roles (for grouping permissions)
-Admin Panel -> Agents -> Roles Supreme Admin Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)Admin Panel -> Agents -> Departments SysAdmins Configure Teams Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
-Online Banking
+#1 Configuring Roles, Departments and Teams - To configure Roles for grouping permissions go to Admin Panel -> Agents -> Roles. Click all of the boxes to make a Supreme Admin role. To configure Departments go to the Admin Panel -> Agents -> Departments. Create new department and add SysAdmins. To configure go to Teams Admin Panel -> Agents -> Teams. Create new teams and name it online banking.
 
 </p>
 <br />
@@ -44,20 +37,22 @@ Online Banking
 
 </p>
 <p>
-#2 Configuring Agents and Users Allow anyone to create tickets
-Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets) Registration Required: Require registration and login to create tickets  Configure Agents (workers) Admin Panel -> Agents -> Add New Jane (Dept: SysAdmins) John (Dept: Support) Configure Users (customers) Agent Panel -> Users -> Add New, Karen, Ken
+#2 Configuring Agents and Users - In order to allow anyone to create tickets we need to go to the Admin Panel -> Settings -> User Settings we are going to uncheck "unregistered users can create tickets Registration Required: Require registration and login to create tickets." To configure Agents we go to the Admin Panel -> Agents -> and we are going to add new. We are going to name them Jane and going to put her in the SysAdmins department. We are gong to create another agebnt and name them John. He will be in the Support department. To configure Users or the customers making the tickets we go to the Agent Panel -> Users -> and add New. We are going to add 2 users which will be Karen and Ken
 
 </p>
 <br />
+(Image #1)
 
 ![image](https://github.com/user-attachments/assets/66800a50-0785-4d9c-81d4-2bf9850c1d7e)
+
+(Image #2)
 
 ![image](https://github.com/user-attachments/assets/fe8047f7-405b-4a6b-afe3-9c041c019cb1)
 
 
 </p>
 <p>
-#3 Configuring SLA and Help Topics Configure SLA Admin Panel -> Manage -> SLA Sev-A (Grace Period: 1 hour, Schedule: 24/7) Sev-B (Grace Period: 4 hours, Schedule: 24/7) Sev-C (Grace Period: 8 hours, Business Hours) Configure Help Topics (For when users create a ticket) Admin Panel -> Manage -> Help Topics, Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset, Other
+#3 Configuring SLA and Help Topics - To configure SLA we are going to open the Admin Panel -> Manage -> SLA. We are going to set Sev-A's grace period to 1 hour and the schedule to 24/7. Set Sev-B's grace period to 4 hours and the schedule to 24/7. Then set Sev-C's grace period to 8 hours and to Business Hours. To configure the Help Topics for when users create a ticket we go to the Admin Panel -> Manage -> Help Topics. Add Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset and Other.
 
 
 </p>
