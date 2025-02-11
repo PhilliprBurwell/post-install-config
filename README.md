@@ -7,7 +7,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -41,7 +41,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 </p>
 <p>
-#2 Configuring Agents and Users - In order to allow anyone to create tickets we need to go to the Admin Panel -> Settings -> User Settings we are going to uncheck "unregistered users can create tickets Registration Required: Require registration and login to create tickets." To configure Agents we go to the Admin Panel -> Agents -> and we are going to add new. We are going to name them Jane and going to put her in the SysAdmins department. We are gong to create another agebnt and name them John. He will be in the Support department. To configure Users or the customers making the tickets we go to the Agent Panel -> Users -> and add New. We are going to add 2 users which will be Karen and Ken
+#2 Configuring Agents and Users - In order to allow anyone to create tickets we need to go to the Admin Panel -> Settings -> User Settings we are going to uncheck "unregistered users" so we can create tickets Registration Required: Require registration and login to create tickets." To configure Agents we go to the Admin Panel -> Agents -> and we are going to add new. We are going to name them Jane and going to put her in the SysAdmins department. We are gong to create another agent and name them John. He will be in the Support department. To configure Users or the customers making the tickets we go to the Agent Panel -> Users -> and add New. We are going to add 2 users which will be Karen and Ken.
 
 </p>
 <br />
